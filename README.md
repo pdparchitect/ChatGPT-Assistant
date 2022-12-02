@@ -31,4 +31,6 @@ If you have any questions or feedback about ChatGPT Assistant, please open an is
 
 ## How it was made
 
+This extension was made entirely by OpenAI ChatGPT system with some guidence.
+
 ![ChatGPT conversation](conversation.png)
