@@ -1,0 +1,16 @@
+{
+    "name": "ChatGPT Assistant",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "ChatGPT Assistant is a powerful extension that enhances your browsing experience on the ChatGPT website, with features like page fetching and more.",
+    "permissions": ["activeTab", "http://*/*", "https://*/*"],
+    "content_scripts": [
+      {
+        "matches": ["https://chat.openai.com/chat"],
+        "js": ["user.js"]
+      }
+    ],
+    "icons": {
+      "128": "chat-bubble-icon.svg"
+    }
+  }
